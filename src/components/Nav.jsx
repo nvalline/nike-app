@@ -11,7 +11,7 @@ const Nav = () => {
 				</a>
 
 				{/* Desktop Nav */}
-				<ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
+				<ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
 					{navLinks.map((link) => (
 						<li key={link.label}>
 							<a
