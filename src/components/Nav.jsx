@@ -16,7 +16,7 @@ const Nav = () => {
 						<li key={link.label}>
 							<a
 								href={link.href}
-								className='font-montserrat leading-normal text-lg text-slate-gray'
+								className='font-montserrat leading-normal text-lg text-slate-gray hover:text-coral-red'
 							>
 								{link.label}
 							</a>
